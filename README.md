@@ -15,7 +15,7 @@ Download [LSUN object dataset](https://www.yf.io/p/lsun).
 Sample train command for the layered generative model:
 
 ```
-python train.py --max_size 128 --location_jitter 0.125 --min_mask_coverage 0.25 --mask_alpha 2.0 --mixing -d lsun /media/adam/data/adam/datasets/lsun/objects/car/ --bg_contrast_jitter 0.3 --org_to_crop 1.125 --sched
+python train.py --max_size 128 --location_jitter 0.125 --min_mask_coverage 0.25 --mask_alpha 2.0 --mixing -d lsun /path/to/lmdb/ --bg_contrast_jitter 0.3 --org_to_crop 1.125 --sched
 ```
 
 
